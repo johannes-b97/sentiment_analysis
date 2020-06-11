@@ -1,0 +1,13 @@
+md5: 4b56b6bb5a0675918cece5c21c62659a
+cmd: python src/prepare.py data/dummy_data.txt data/prepared
+deps:
+- md5: ba0225f25b7fdd9f0d5ebc96cd36c96e
+  path: src/prepare.py
+- md5: a687cec9c31340aa0d000c212ec64bb7
+  path: data/dummy_data.txt
+outs:
+- md5: ff88774fb4f147be90f7bc958d3e1927.dir
+  path: data/prepared
+  cache: true
+  metric: false
+  persist: false
