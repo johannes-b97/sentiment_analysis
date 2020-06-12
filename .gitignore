@@ -2,3 +2,4 @@ sentiment_analysis.iml
 .idea
 /data
 /trained_model.txt
+/model.txt

@@ -1,13 +1,13 @@
-md5: 1989c9983b97b46af6af7123086a5e31
-cmd: python3 src/train.py data/features trained_model.txt
+md5: 8a302839513c400a3a5a40dcfc614233
+cmd: python src/train.py data/features model.txt
 deps:
-- md5: a330981d3b3ac67597b99d25f4b5ec37
+- md5: 5335c3a8bb06bf24ebd0ff51e79976c1
   path: src/train.py
-- md5: 134d851e5cdb7fe776842e96071348e0.dir
+- md5: d751713988987e9331980363e24189ce.dir
   path: data/features
 outs:
-- md5: a6533520735096c382b93ec9b3381a74
-  path: trained_model.txt
+- md5: 29c2c02a361c9d7028472e5d92cd4a54
+  path: model.txt
   cache: true
   metric: false
   persist: false
